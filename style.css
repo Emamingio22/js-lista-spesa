@@ -5,15 +5,54 @@
 }
 
 .my-container {
-    border: 3px solid black;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 50px;
     width: 30%;
     margin: 0 auto;
     margin-top: 90px;
+    margin-bottom: 30px;
     line-height: 30px;
+    transition-duration: 1s;
+    background-color: rgb(250, 201, 109);
 }
 
-p {
+.my-container :hover {
+    transform: scale(1,1);
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    transition-duration: 1.2s;
+    border-radius: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+h1:hover {
+    font-size: 3rem;
+    line-height: 50px;
+    background-color: rgb(250, 201, 109);
+}
+
+ul {
     margin-top: 30px;
     margin-bottom: 30px;
+    list-style-type: none;
 }
+
+li {
+    text-align: center;
+    transition-duration: .8s;
+    background-color: rgb(250, 201, 109);
+
+}
+
+
+li:hover {
+    font-size: 2rem;
+    background-color: rgb(250, 201, 109);
+}
+
+
