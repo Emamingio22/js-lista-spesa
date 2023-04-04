@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-container {
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 90px;
+    line-height: 30px;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
